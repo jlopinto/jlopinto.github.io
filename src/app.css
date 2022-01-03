@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen {
+	#svelte {
+		position: relative;
+		z-index: 1;
+		min-height: 100vh;
+		@apply bg-gray-300 sm:py-8 font-sans dark:bg-indigo-900;
+	}
+
+	#svelte::before {
+		content: '';
+		position: fixed;
+		top: 40rem;
+		left: -12rem;
+		z-index: -1;
+		width: 122vw;
+		height: 30rem;
+		display: block;
+		transform: rotate(20deg);
+		@apply bg-gradient-to-r from-indigo-700 to-indigo-400;
+	}
+}
