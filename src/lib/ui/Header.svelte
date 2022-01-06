@@ -25,7 +25,7 @@
 				<div class="print:grid print:grid-cols-2 print:mt-6">
 					<p class="screen:mt-8">
 						Développeur web depuis 2005, mes expériences et ma veille constante, me permettent de proposer mon
-						expertise sur le développement d'interface web, au sein de la pluspart des frameworks et
+						expertise sur le développement d'interface web, au sein de la plupart des frameworks et
 						librairies modernes.
 					</p>
 					<p class="screen:mt-2">
